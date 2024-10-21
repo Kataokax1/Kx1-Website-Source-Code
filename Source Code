@@ -12,7 +12,7 @@
     <meta property="og:description" content="My Contact Page" />
     <meta
       property="og:image"
-      content="https://ktxct.carrd.co/assets/images/card.jpg?v=52e1b043"
+      content="https://ktxct.carrd.co/assets/images/card.jpg?v=eacf5d3c"
     />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1280" />
@@ -413,20 +413,20 @@
       #buttons01 .n01:hover {
         background-color: #000000 !important;
       }
-      #buttons02 {
+      #buttons04 {
         --flex-alignment: center;
         --alignment: center;
         gap: 0.75rem;
         flex-direction: row;
         flex-wrap: wrap;
       }
-      #buttons02:not(:first-child) {
+      #buttons04:not(:first-child) {
         margin-top: 0rem !important;
       }
-      #buttons02:not(:last-child) {
+      #buttons04:not(:last-child) {
         margin-bottom: 0rem !important;
       }
-      #buttons02 li a {
+      #buttons04 li a {
         display: inline-flex;
         width: auto;
         height: 1.75rem;
@@ -442,7 +442,7 @@
         transition: transform 0.25s ease, color 0.25s ease,
           background-color 0.25s ease, border-color 0.25s ease;
       }
-      #buttons02 li a svg {
+      #buttons04 li a svg {
         display: block;
         fill: #ffffff;
         flex-grow: 0;
@@ -454,22 +454,74 @@
         margin-right: calc(0.5em + 0rem);
         transition: fill 0.25s ease;
       }
-      #buttons02 li a .label {
+      #buttons04 li a .label {
         direction: var(--site-language-direction);
         overflow: hidden;
       }
-      #buttons02 .button {
+      #buttons04 .button {
         background-color: rgba(59, 59, 59, 0.11);
         color: #ffffff;
       }
-      #buttons02 li a:hover {
+      #buttons04 li a:hover {
         transform: scale(1.1125);
       }
-      #buttons02 .n01 {
+      #buttons04 .n01 {
         background-color: #141414;
       }
-      #buttons02 .n02 {
+      #buttons04 .n02 {
         background-color: #141414;
+      }
+      #buttons03 {
+        --flex-alignment: center;
+        --alignment: center;
+        gap: 0.75rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      #buttons03:not(:first-child) {
+        margin-top: 0rem !important;
+      }
+      #buttons03:not(:last-child) {
+        margin-bottom: 0rem !important;
+      }
+      #buttons03 li a {
+        display: inline-flex;
+        width: auto;
+        height: 1.75rem;
+        line-height: 1.75rem;
+        padding: 0 0.875rem;
+        vertical-align: middle;
+        font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+          "Helvetica Neue", "Arial", sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 1.125em;
+        font-weight: 700;
+        border-radius: 0rem;
+        transition: transform 0.25s ease, color 0.25s ease,
+          background-color 0.25s ease, border-color 0.25s ease;
+      }
+      #buttons03 li a svg {
+        display: block;
+        fill: #ffffff;
+        flex-grow: 0;
+        flex-shrink: 0;
+        height: 100%;
+        min-width: 16px;
+        width: 1.25em;
+        margin-left: -0.125em;
+        margin-right: calc(0.5em + 0rem);
+        transition: fill 0.25s ease;
+      }
+      #buttons03 li a .label {
+        direction: var(--site-language-direction);
+        overflow: hidden;
+      }
+      #buttons03 .button {
+        background-color: rgba(59, 59, 59, 0.11);
+        color: #ffffff;
+      }
+      #buttons03 li a:hover {
+        transform: scale(1.1125);
       }
       hr {
         align-items: center;
@@ -485,6 +537,12 @@
         content: "";
       }
       #divider01:before {
+        width: 100%;
+        background-color: #ffffff;
+        height: 1px;
+        border-radius: 0px;
+      }
+      #divider02:before {
         width: 100%;
         background-color: #ffffff;
         height: 1px;
@@ -717,6 +775,27 @@
         text-decoration: none;
       }
       #text08 span.p:nth-child(n + 2) {
+        margin-top: 1rem;
+      }
+      #text05 {
+        text-align: center;
+        color: #ffffff;
+        font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+          "Helvetica Neue", "Arial", sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol";
+        padding-left: 3.25rem;
+        padding-right: 3.25rem;
+        font-size: 1.25em;
+        line-height: 1.375;
+        font-weight: 400;
+      }
+      #text05 a {
+        text-decoration: underline;
+      }
+      #text05 a:hover {
+        text-decoration: none;
+      }
+      #text05 span.p:nth-child(n + 2) {
         margin-top: 1rem;
       }
       .container {
@@ -1025,6 +1104,143 @@
         position: absolute;
         width: 100%;
       }
+      #container04 > .wrapper {
+        display: block;
+        margin: 0 0 0 auto;
+        width: 43rem;
+        background-color: #141414;
+        border-color: #ffffff;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 1.25rem;
+      }
+      #container04 > .wrapper > .inner {
+        --gutters: 2rem;
+        --padding-horizontal: 0.875rem;
+        --padding-vertical: 1.875rem;
+        padding: var(--padding-vertical) var(--padding-horizontal);
+        border-radius: calc(1.25rem - 1px);
+      }
+      #container04.default > .wrapper > .inner > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container04.default > .wrapper > .inner > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container04.default > .wrapper > .inner > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container04.columns > .wrapper > .inner {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: flex-start;
+      }
+      #container04.columns > .wrapper > .inner > * {
+        flex-grow: 0;
+        flex-shrink: 0;
+        max-width: 100%;
+        text-align: var(--alignment);
+        padding: 0 0 0 var(--gutters);
+      }
+      #container04.columns > .wrapper > .inner > * > * {
+        margin-bottom: var(--spacing);
+        margin-top: var(--spacing);
+      }
+      #container04.columns > .wrapper > .inner > * > *:first-child {
+        margin-top: 0 !important;
+      }
+      #container04.columns > .wrapper > .inner > * > *:last-child {
+        margin-bottom: 0 !important;
+      }
+      #container04.columns > .wrapper > .inner > *:first-child {
+        margin-left: calc(var(--gutters) * -1);
+      }
+      #container04.default > .wrapper > .inner > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        max-width: none !important;
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+      }
+      #container04.default > .wrapper > .inner > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container04.default > .wrapper > .inner > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > div > .full {
+        margin-left: calc(var(--gutters) * -0.5);
+        max-width: none !important;
+        width: calc(100% + var(--gutters) + 0.4725px);
+      }
+      #container04.columns > .wrapper > .inner > div:first-child > .full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(
+          100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) +
+            0.4725px
+        );
+      }
+      #container04.columns > .wrapper > .inner > div:last-child > .full {
+        width: calc(
+          100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) +
+            0.4725px
+        );
+      }
+      #container04.columns > .wrapper > .inner > div > .full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container04.columns > .wrapper > .inner > div > .full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+      }
+      #container04.columns > .wrapper > .inner > div:first-child,
+      #container04.columns
+        > .wrapper
+        > .inner
+        > div:first-child
+        > .full:first-child {
+        border-top-left-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > div:last-child,
+      #container04.columns
+        > .wrapper
+        > .inner
+        > div:last-child
+        > .full:first-child {
+        border-top-right-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > .full {
+        align-self: stretch;
+      }
+      #container04.columns > .wrapper > .inner > .full:first-child {
+        border-bottom-left-radius: inherit;
+        border-top-left-radius: inherit;
+      }
+      #container04.columns > .wrapper > .inner > .full:last-child {
+        border-bottom-right-radius: inherit;
+        border-top-right-radius: inherit;
+      }
+      #container04.columns
+        > .wrapper
+        > .inner
+        > .full
+        > .full:first-child:last-child {
+        border-radius: inherit;
+        height: calc(100% + (var(--padding-vertical) * 2));
+      }
+      #container04.columns
+        > .wrapper
+        > .inner
+        > .full
+        > .full:first-child:last-child
+        > * {
+        border-radius: inherit;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
       #container01 > .wrapper {
         display: block;
         margin: 0 0 0 auto;
@@ -1282,23 +1498,42 @@
         #buttons01 li a svg {
           width: 1.25em;
         }
-        #buttons02 {
+        #buttons04 {
           gap: 0.75rem;
         }
-        #buttons02:not(:first-child) {
+        #buttons04:not(:first-child) {
           margin-top: 0rem !important;
         }
-        #buttons02:not(:last-child) {
+        #buttons04:not(:last-child) {
           margin-bottom: 0rem !important;
         }
-        #buttons02 li a {
+        #buttons04 li a {
           letter-spacing: 0rem;
           font-size: 1.125em;
         }
-        #buttons02 li a svg {
+        #buttons04 li a svg {
+          width: 1.25em;
+        }
+        #buttons03 {
+          gap: 0.75rem;
+        }
+        #buttons03:not(:first-child) {
+          margin-top: 0rem !important;
+        }
+        #buttons03:not(:last-child) {
+          margin-bottom: 0rem !important;
+        }
+        #buttons03 li a {
+          letter-spacing: 0rem;
+          font-size: 1.125em;
+        }
+        #buttons03 li a svg {
           width: 1.25em;
         }
         #divider01:before {
+          width: 100rem;
+        }
+        #divider02:before {
           width: 100rem;
         }
         #image01 .frame {
@@ -1350,6 +1585,14 @@
           line-height: 1.375;
         }
         #text08 {
+          letter-spacing: 0rem;
+          width: 100%;
+          font-size: 1.25em;
+          line-height: 1.375;
+        }
+        #text05 {
+          padding-left: 2.4375rem;
+          padding-right: 2.4375rem;
           letter-spacing: 0rem;
           width: 100%;
           font-size: 1.25em;
@@ -1571,6 +1814,114 @@
           position: relative;
           width: auto;
         }
+        #container04 > .wrapper > .inner {
+          --gutters: 2rem;
+          --padding-horizontal: 0.875rem;
+          --padding-vertical: 1.875rem;
+        }
+        #container04.columns > .wrapper > .inner {
+          flex-direction: column !important;
+          flex-wrap: nowrap !important;
+        }
+        #container04.columns > .wrapper > .inner > span {
+          height: 0;
+          margin-top: calc(var(--gutters) * -1);
+          pointer-events: none;
+          visibility: hidden;
+        }
+        #container04.columns > .wrapper > .inner > *:first-child {
+          margin-left: 0 !important;
+          padding-top: 0 !important;
+        }
+        #container04.columns > .wrapper > .inner > * {
+          padding: calc(var(--gutters) * 0.5) 0 !important;
+        }
+        #container04.columns > .wrapper > .inner > *:last-child {
+          padding-bottom: 0 !important;
+        }
+        #container04.columns > .wrapper > .inner > div > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+        }
+        #container04.columns > .wrapper > .inner > div:first-of-type > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+        }
+        #container04.columns > .wrapper > .inner > div:last-of-type > .full {
+          margin-left: calc(var(--padding-horizontal) * -1);
+          width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+        }
+        #container04.columns > .wrapper > .inner > div > .full:first-child {
+          margin-top: calc(var(--gutters) * -0.5) !important;
+        }
+        #container04.columns > .wrapper > .inner > div > .full:last-child {
+          margin-bottom: calc(var(--gutters) * -0.5) !important;
+        }
+        #container04.columns
+          > .wrapper
+          > .inner
+          > div:first-of-type
+          > .full:first-child {
+          margin-top: calc(var(--padding-vertical) * -1) !important;
+        }
+        #container04.columns
+          > .wrapper
+          > .inner
+          > div:last-of-type
+          > .full:last-child {
+          margin-bottom: calc(var(--padding-vertical) * -1) !important;
+        }
+        #container04.columns > .wrapper > .inner > div:first-of-type,
+        #container04.columns
+          > .wrapper
+          > .inner
+          > div:first-of-type
+          > .full:first-child {
+          border-top-left-radius: inherit;
+          border-top-right-radius: inherit;
+        }
+        #container04.columns > .wrapper > .inner > div:last-of-type,
+        #container04.columns
+          > .wrapper
+          > .inner
+          > div:last-of-type
+          > .full:last-child {
+          border-bottom-left-radius: inherit;
+          border-bottom-right-radius: inherit;
+        }
+        #container04.columns > .wrapper > .inner > div:first-of-type,
+        #container04.columns
+          > .wrapper
+          > .inner
+          > div:first-of-type
+          > .full:last-child {
+          border-bottom-left-radius: 0 !important;
+        }
+        #container04.columns > .wrapper > .inner > div:last-of-type,
+        #container04.columns
+          > .wrapper
+          > .inner
+          > div:last-of-type
+          > .full:first-child {
+          border-top-right-radius: 0 !important;
+        }
+        #container04.columns
+          > .wrapper
+          > .inner
+          > .full
+          > .full:first-child:last-child {
+          height: auto;
+        }
+        #container04.columns
+          > .wrapper
+          > .inner
+          > .full
+          > .full:first-child:last-child
+          > * {
+          height: auto;
+          position: relative;
+          width: auto;
+        }
         #container01 > .wrapper > .inner {
           --gutters: 2rem;
           --padding-horizontal: 0.875rem;
@@ -1692,11 +2043,19 @@
           max-width: 32rem;
           width: 100%;
         }
-        #buttons02 {
+        #buttons04 {
           flex-direction: column;
           flex-wrap: nowrap;
         }
-        #buttons02 li a {
+        #buttons04 li a {
+          max-width: 32rem;
+          width: 100%;
+        }
+        #buttons03 {
+          flex-direction: column;
+          flex-wrap: nowrap;
+        }
+        #buttons03 li a {
           max-width: 32rem;
           width: 100%;
         }
@@ -1713,7 +2072,10 @@
         #buttons01 {
           gap: 0.5625rem;
         }
-        #buttons02 {
+        #buttons04 {
+          gap: 0.5625rem;
+        }
+        #buttons03 {
           gap: 0.5625rem;
         }
         #image01 .frame {
@@ -1740,12 +2102,20 @@
         #text08 {
           font-size: 1.25em;
         }
+        #text05 {
+          font-size: 1.25em;
+        }
         #container02 > .wrapper > .inner {
           --gutters: 1.5rem;
           --padding-horizontal: 0.65625rem;
           --padding-vertical: 1.40625rem;
         }
         #container03 > .wrapper > .inner {
+          --gutters: 1.5rem;
+          --padding-horizontal: 0.65625rem;
+          --padding-vertical: 1.40625rem;
+        }
+        #container04 > .wrapper > .inner {
           --gutters: 1.5rem;
           --padding-horizontal: 0.65625rem;
           --padding-vertical: 1.40625rem;
@@ -1858,7 +2228,7 @@
           <hr id="divider01" />
           <div id="image01" class="image" data-position="right">
             <span class="frame"
-              ><img src="assets/images/image01.jpg?v=52e1b043" alt=""
+              ><img src="assets/images/image01.jpg?v=eacf5d3c" alt=""
             /></span>
           </div>
           <h1 id="text01">Hi, i&#39;m Kx1</h1>
@@ -1867,8 +2237,8 @@
             <span class="p"
               >Heyo I am Kx1, I like to code stuff and learn new coding
               languages. I do frontend coding and I love to do documentation for
-              projects on Github or Gitbook. I am also a Roblox modeller for a
-              studio.<br />
+              projects on Github or Gitbook. I am also a Roblox modeller for
+              Slumber Studios.<br />
               Feel free to DM me</span
             >
           </p>
@@ -1879,7 +2249,11 @@
                 <p id="text06">
                   <span class="p"
                     ><strong>Discord Moderation</strong><br />
-                    I moderate discord servers, I have no life</span
+                    I moderate discord servers, I have no life<br />
+                    <strong>Notable Positions</strong><br />
+                    <a href="https://yoursit.ee/"
+                      >Yoursitee Moderation Team</a
+                    ></span
                   >
                 </p>
               </div>
@@ -1899,18 +2273,18 @@
               </div>
             </div>
           </div>
-          <div id="container01" class="container default">
+          <div id="container04" class="container default">
             <div class="wrapper">
               <div class="inner">
-                <p id="text07">
+                <p id="text05">
                   <span class="p"
-                    ><strong>Code Documentation</strong><br />
+                    ><strong>API/General Documentation</strong><br />
                     I use Github and Gitbook for code documentation/any
                     documentation.<br />
                     2+ Years of experience</span
                   >
                 </p>
-                <ul id="buttons02" class="buttons">
+                <ul id="buttons04" class="buttons">
                   <li>
                     <a
                       href="https://kataokax1.gitbook.io/kx1.com"
@@ -1937,6 +2311,34 @@
               </div>
             </div>
           </div>
+          <div id="container01" class="container default">
+            <div class="wrapper">
+              <div class="inner">
+                <p id="text07">
+                  <span class="p"
+                    ><strong>Roblox Modelling</strong><br />
+                    Been moddling with Roblox Studio parts for about 3 years or
+                    so. Can model vehicles and weapons well.</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr id="divider02" />
+          <ul id="buttons03" class="buttons">
+            <li>
+              <a
+                href="https://github.com/Kataokax1/Kx1-Website-Source-Code"
+                class="button n01"
+                ><svg aria-labelledby="icon-title">
+                  <title id="icon-title">GitHub</title>
+                  <use
+                    xlink:href="#icon-8c4b37645de3c276d895d87df51ba614"
+                  ></use></svg
+                ><span class="label">Source Code</span></a
+              >
+            </li>
+          </ul>
           <div id="credits" class="icc-credits">
             <span
               ><a href="https://carrd.co/build?ref=auto"
